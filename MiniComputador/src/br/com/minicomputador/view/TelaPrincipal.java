@@ -44,7 +44,6 @@ public class TelaPrincipal extends javax.swing.JFrame {
         txtRegC.setText(pc.getProcessador().getRegistradorC());
         txtRegD.setText(pc.getProcessador().getRegistradorD());
         
-        //listMemoriaCache.setListData(pc.getMemoriaCache().getLinhasMapeamentoDireto().values().iterator().next().values().toArray());
         ArrayList<String> linha0 = pc.getMemoriaCache().getLinhasMapeamentoDireto().get("0").get("0");
         ArrayList<String> linha1 = pc.getMemoriaCache().getLinhasMapeamentoDireto().get("1").get("1");
         ArrayList<String> linha2 = pc.getMemoriaCache().getLinhasMapeamentoDireto().get("2").get("2");
